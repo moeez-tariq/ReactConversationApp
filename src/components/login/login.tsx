@@ -83,12 +83,11 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
           <ProductConversationsIcon
             decorative={true}
             size="sizeIcon90"
-            style={styles.logo}
             color="colorTextInverse"
           />
         </Box>
-        <div style={styles.loginTitle}>Twilio Conversations</div>
-        <div style={styles.subTitle}>Demo experience</div>
+        <div style={styles.loginTitle}>Qlub</div>
+        <div style={styles.subTitle}>SCAN. SPLIT. TIP. PAY.</div>
         <Box style={styles.loginForm}>
           <Box style={styles.userInput}>
             <ModalInputField
